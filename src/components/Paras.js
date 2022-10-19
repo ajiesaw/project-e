@@ -17,6 +17,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+import Header from "./Header";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -24,6 +25,8 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
+    <>
+    <Header />
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
@@ -165,5 +168,6 @@ export default function Example() {
         </Popover.Panel>
       </Transition>
     </Popover>
+    </>
   )
 }
