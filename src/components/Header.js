@@ -33,7 +33,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     )}
                   >
                     <svg
@@ -77,7 +77,7 @@ export default function Example() {
                               className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:bg-gray-50"
                             >
                               <div>
-                                <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                <p className="text-sm font-medium text-gray-900">{item.name}</p>
                               </div>
                             </a>
                           ))}
@@ -96,7 +96,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     )}
                   >
                     <svg
@@ -141,7 +141,7 @@ export default function Example() {
                               className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:bg-gray-50"
                             >
                               <div>
-                                <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                <p className="text-sm font-medium text-gray-900">{item.name}</p>
                               </div>
                             </a>
                           ))}
@@ -154,13 +154,13 @@ export default function Example() {
               )}
             </Popover>
 
-            <a className="text-base font-medium text-gray-500">
+            <a className="text-sm font-medium text-gray-500">
               Call Us (123)4567890
             </a>
           </Popover.Group>
 
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <a className="whitespace-nowrap text-base font-medium text-gray-500">
+            <a className="whitespace-nowrap text-sm font-medium text-gray-500">
               Free delivery every Monday and Thursday
             </a>
           </div>
