@@ -31,7 +31,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           
-          <div className="flex justify-start lg:w-0 lg:flex-1 text-3xl font-black bg-indigo-700 text-white rounded-md">
+          <div className="flex justify-start lg:w-0 lg:flex-1 text-3xl font-black">
             <a href="#">
               <span className="sr-only">Your Company</span>
               E-Shop
@@ -107,7 +107,7 @@ export default function Example() {
                 <div className="text-3xl font-black">
                   <a href="#">
                     <span className="sr-only">Your Company</span>
-                    Paras Shop
+                    E-Shop
                   </a>
                 </div>
 
