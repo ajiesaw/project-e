@@ -33,7 +33,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900'
+                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     )}
                   >
                     <svg
@@ -74,10 +74,10 @@ export default function Example() {
                             <a
                               key={item.name}
                               href={item.href}
-                              className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:text-gray-900"
+                              className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:bg-gray-50"
                             >
                               <div>
-                                <p className="text-sm font-medium text-gray-500 hover:text-gray-900">{item.name}</p>
+                                <p className="text-sm font-medium text-gray-900">{item.name}</p>
                               </div>
                             </a>
                           ))}
@@ -96,7 +96,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900'
+                      'group inline-flex items-center rounded-md bg-white text-sm font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     )}
                   >
                     <svg
@@ -138,10 +138,10 @@ export default function Example() {
                             <a
                               key={item.name}
                               href={item.href}
-                              className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:text-gray-900"
+                              className="-m-3 flex items-center justify-center text-center rounded-lg p-3 hover:bg-gray-50"
                             >
                               <div>
-                                <p className="text-sm font-medium text-gray-500 hover:text-gray-900">{item.name}</p>
+                                <p className="text-sm font-medium text-gray-900">{item.name}</p>
                               </div>
                             </a>
                           ))}
