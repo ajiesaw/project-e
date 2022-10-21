@@ -109,7 +109,7 @@ export default function Example() {
             {product.breadcrumbs.map((breadcrumb) => (
               <li key={breadcrumb.id}>
                 <div className="flex items-center">
-                  <a href={breadcrumb.href} className="mr-2 text-sm font-medium text-gray-900">
+                  <a href={breadcrumb.href} className="mr-2 text-sm font-medium text-gray-500 hover:text-gray-900">
                     {breadcrumb.name}
                   </a>
                   <svg
@@ -127,7 +127,7 @@ export default function Example() {
               </li>
             ))}
             <li className="text-sm">
-              <a href={product.href} aria-current="page" className="font-medium text-gray-500 hover:text-gray-600">
+              <a href={product.href} aria-current="page" className="font-medium text-gray-900">
                 {product.name}
               </a>
             </li>
@@ -135,7 +135,7 @@ export default function Example() {
         </nav>
 
         {/* Image gallery */}
-        <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-4 lg:gap-x-8 lg:px-8">
           <div className="aspect-w-3 aspect-h-4 hidden overflow-hidden rounded-lg lg:block">
             <img
               src={product.images[0].src}
