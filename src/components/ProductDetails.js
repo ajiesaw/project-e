@@ -62,14 +62,6 @@ const product = {
       src: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
       alt: 'BFjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
     },
-    {
-      src: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
-      alt: 'BFjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
-    },
-    {
-      src: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
-      alt: 'BFjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',
-    },
   ],
   colors: [
     { name: 'Navy', class: 'bg-blue-900', selectedClass: 'ring-gray-400' },
@@ -143,7 +135,7 @@ export default function Example() {
         </nav>
 
         {/* Image gallery */}
-        <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 object-center">
+        <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="aspect-w-3 aspect-h-4 hidden overflow-hidden rounded-lg lg:block">
             <img
               src={product.images[0].src}
@@ -153,8 +145,8 @@ export default function Example() {
           </div>
           <div className="aspect-w-4 aspect-h-5 sm:overflow-hidden sm:rounded-lg lg:aspect-w-3 lg:aspect-h-4">
             <img
-              src={product.images[3].src}
-              alt={product.images[3].alt}
+              src={product.images[1].src}
+              alt={product.images[1].alt}
               className="h-full w-full object-cover object-center"
             />
           </div>
